@@ -5,7 +5,7 @@ Angular project using Ngrx
 
 - Installation instructions : 
   1. Download the project.
-  2. Install the dependencies.
+  2. Install the dependencies(npm install)
   3. Build(using typescrip@3.7.5) and run the project. 
   
 - How it works:  

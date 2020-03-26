@@ -11,3 +11,5 @@ Angular project using Ngrx
 - How it works:  
     Everytime user picks a region, the country dropdown will be loaded with a list of countries of that region.
     Then, when a country is selected, a table will be showed with the info from that country.
+- Demo live:  
+ [Demo link](https://stackblitz.com/github/lair60/ngrx)

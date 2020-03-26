@@ -1,0 +1,17 @@
+<h1>NgRx Project</h1>
+<div class="cl_component">
+    <app-my-comp1 [label]="labelRegion" [items]="itemsRegions" (itemSelected)="onSelected($event)"></app-my-comp1>
+ </div>   
+
+ <div class="cl_component">
+    <app-my-comp1 [label]="labelCountries" [items]="itemsCountries" (itemSelected)="onCountrySelected($event)"></app-my-comp1>
+ </div> 
+
+ <div *ngIf="showTable">
+    <app-my-table [dataSource]="dataSource" [displayedColumns]="displayedColumns"></app-my-table>
+</div>
+
+<!-- 
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://github.com/ngrx/platform
+-->

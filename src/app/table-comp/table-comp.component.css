@@ -1,0 +1,11 @@
+table {
+    width: 100%;
+  }
+
+  table th, table tr {
+      text-align: center;
+  }
+
+  table ul{
+    list-style-type:none;
+  }

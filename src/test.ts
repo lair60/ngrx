@@ -31,23 +31,3 @@ describe('Fetch Countries', () => {
   // I nest all tests under the reducer's name 
   // for readability in the terminal
 });
-/*
-
-describe('LOAD_PIZZAS action', () => {
-  it('should set loading to true', () => {
-    const actions = new Actions(
-      ofType(fromActions.getRegions,fromActions.getCountries)      
-    );
-    const effects = new DataService(fromActions.getCountries, CountriesService);
-
-    const { initialCountries } = fromReducer;
-    const action = fromActions.getCountries({param: "Europe"});
-    const state = fromReducer.listCountries(initialCountries, action);
-
-    expect(state.length>0).toEqual(true);
-    // untouched props, good to add regardless
-    //expect(state.loaded).toEqual(false);
-    //expect(state.entities).toEqual({});
-  });
-});
-*/

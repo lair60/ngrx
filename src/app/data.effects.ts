@@ -14,12 +14,12 @@ export class DataService {
       ofType(getRegions,getCountries),
       switchMap(action => {
         if (action.type === getRegions.type){
-            return this.moviesService.getRegions(action.param).pipe(
+            return this.countriesService.getRegions(action.param).pipe(
                 map((response) => fetchDataDone({data: response})),
                 catchError(error => "")
               );
         }else{
-            return this.moviesService.getCountries(action.param).pipe(
+            return this.countriesService.getCountries(action.param).pipe(
                 map((response) => fetchDataDone({data: response})),
                 catchError(error => "")
               );
@@ -31,6 +31,6 @@ export class DataService {
  
   constructor(
     private actions$: Actions,
-    private moviesService: CountriesService
+    private countriesService: CountriesService
   ) {}
 }

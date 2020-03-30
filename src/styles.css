@@ -2,6 +2,14 @@
 /* Global Styles */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "~@ng-select/ng-select/themes/default.theme.css";
+
+.header_proj{
+  text-align: center;
+}
+.header_proj mat-icon{
+  vertical-align: middle;
+}
+
 .cl_component{
   width: 200px;
   padding: 20px 20px;

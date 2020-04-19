@@ -4,9 +4,14 @@ table {
 
   table th, table tr, table td {
       text-align: center;
-      border: 1px solid #dddddd;      
+      border: 1px solid #dddddd;            
   }
 
   table ul{
     list-style-type:none;
+    padding: 0px;
   }
+
+    td:nth-child(5) {
+      padding: 0px;
+    }

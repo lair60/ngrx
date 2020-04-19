@@ -2,9 +2,9 @@ table {
     width: 100%;
   }
 
-  table th, table tr {
+  table th, table tr, table td {
       text-align: center;
-      border: 1px solid #dddddd;
+      border: 1px solid #dddddd;      
   }
 
   table ul{

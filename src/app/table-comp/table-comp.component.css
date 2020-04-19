@@ -13,5 +13,5 @@ table {
   }
 
     td:nth-child(5) {
-      padding: 0px;
+      padding: 0px !important;
     }

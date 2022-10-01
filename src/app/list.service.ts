@@ -17,7 +17,7 @@ import { of } from 'rxjs';
         if (param===""){
             return of();
         }else{
-            return this.http.get('https://restcountries.eu/rest/v2/region/' + param);
+            return this.http.get('https://restcountries.com/v3.1/region/' + param);
         }      
     }
   }

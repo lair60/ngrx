@@ -1,7 +1,7 @@
 import { createReducer, on } from '@ngrx/store';
 import { getRegions, getCountries, fetchDataDone} from './fetch.actions';
 
-export const initialRegions = [{name: 'Europe' },{name: 'Asia'}];
+export const initialRegions = [{name: 'Europe' }, {name: 'Asia'}, {name: 'Africa'} , {name: 'Americas'} , {name: 'Oceania'}];
 export const initialCountries = [];
 
 const _listRegions = createReducer(initialRegions,
